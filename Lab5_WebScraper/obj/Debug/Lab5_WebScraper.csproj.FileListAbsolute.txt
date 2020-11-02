@@ -1,0 +1,10 @@
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\bin\Debug\Lab5_WebScraper.exe.config
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\bin\Debug\Lab5_WebScraper.exe
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\bin\Debug\Lab5_WebScraper.pdb
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.csprojAssemblyReference.cache
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.FormWebScraper.resources
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.Properties.Resources.resources
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.csproj.GenerateResource.cache
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.csproj.CoreCompileInputs.cache
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.exe
+C:\Users\amber\source\repos\Lab5_WebScraper\Lab5_WebScraper\obj\Debug\Lab5_WebScraper.pdb
