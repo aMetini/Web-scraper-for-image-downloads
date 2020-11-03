@@ -24,12 +24,12 @@ namespace Lab5_WebScraper
             foreach(Match match in Regex.Matches(HtmlData, pattern))
             {
                 string srcPattern = "src.*=.*?(.*?)\"";
-                string imageSRC = Regex.Match(match.ToString(), srcPattern).ToString();
+                string imageSrc = Regex.Match(match.ToString(), srcPattern).ToString();
 
-                if (imageSRC.Contains("src") && imageSRC.Contains('='))
+                if (imageSrc.Contains("src") && imageSrc.Contains('='))
                 {
                     string urlPattern = "\".*?(.*?)\"";
-                    string imageSrcURL = Regex.Match(imageSRC, urlPattern).ToString().Replace("", "");
+                    string imageSrcURL = Regex.Match(imageSrc, urlPattern).ToString().Replace("\"", "");
                     images.Add(imageSrcURL);
                 }
             }

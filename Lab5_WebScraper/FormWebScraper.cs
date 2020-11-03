@@ -116,7 +116,7 @@ namespace Lab5_WebScraper
 
         private void UpdateImageCount()
         {
-            labelImagesFound.Text = imagesList.Count.ToString();
+            labelImagesFoundCount.Text = imagesList.Count.ToString();
             richTextBoxLinks.Text = "";
 
             if (imagesList.Count > 0)
@@ -133,13 +133,14 @@ namespace Lab5_WebScraper
         private async void buttonExtractImages_Click(object sender, EventArgs e)
         {
             buttonDownloadImages.Enabled = false;
+            labelImagesFoundCount.Text = "";
             await ScrapeWebsite(textBoxURL.Text);
             UpdateImageCount();
         }
 
         private async void TextBoxURL_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Enter)
             {
                 buttonDownloadImages.Enabled = false;
                 labelImagesFoundCount.Text = "";
@@ -175,7 +176,21 @@ namespace Lab5_WebScraper
                 }
             }
         }
+
+        private void tableLayoutPanelMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void FormWebScraper_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanelImages_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
-    
- 
+
