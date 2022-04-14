@@ -1,4 +1,4 @@
-# Web-scraper for picture downloads
+# Web-scraper for image downloads
 
 Web scraping is a method for looking through the web (or limited parts of it) for data and collecting information. This is mostly done by scanning
 (HTML) code that websites are built on, and in many cases in combination with a so-called "Crawler" that follows links that one may find in order to move further to
